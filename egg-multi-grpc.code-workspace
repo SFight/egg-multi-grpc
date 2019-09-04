@@ -1,0 +1,38 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.formatOnType": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+    "html.format.endWithNewline": true,
+    "files.autoSave": "onFocusChange",
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+      "javascript",
+      {
+        "language": "html",
+        "autoFix": true
+      }
+    ],
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatter.ts": "vscode-typescript",
+    "vetur.format.scriptInitialIndent": false,
+    "vetur.format.styleInitialIndent": true,
+    "vetur.format.defaultFormatterOptions": {
+      "js-beautify-html": {
+        "wrap_attributes": "aligned-multiple",
+      }
+      
+    }
+  }
+}
