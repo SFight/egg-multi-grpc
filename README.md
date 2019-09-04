@@ -1,4 +1,4 @@
-# egg-mutl-grpc
+# egg-multi-grpc
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -27,16 +27,16 @@ Description here.
 ## Install
 
 ```bash
-$ npm i egg-mutl-grpc --save
+$ npm i egg-multi-grpc --save
 ```
 
 ## Usage
 
 ```js
 // {app_root}/config/plugin.js
-exports.mutlGrpc = {
+exports.multiGrpc = {
   enable: true,
-  package: 'egg-mutl-grpc',
+  package: 'egg-multi-grpc',
 };
 ```
 
@@ -44,7 +44,7 @@ exports.mutlGrpc = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.mutlGrpc = {
+exports.multiGrpc = {
 };
 ```
 

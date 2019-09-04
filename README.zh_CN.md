@@ -1,4 +1,4 @@
-# egg-mutl-grpc
+# egg-multi-grpc
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -28,7 +28,7 @@ Description here.
 
 ### 依赖的 egg 版本
 
-egg-mutl-grpc 版本 | egg 1.x
+egg-multi-grpc 版本 | egg 1.x
 --- | ---
 1.x | 😁
 0.x | ❌
@@ -47,9 +47,9 @@ egg-mutl-grpc 版本 | egg 1.x
 
 ```js
 // config/plugin.js
-exports.mutlGrpc = {
+exports.multiGrpc = {
   enable: true,
-  package: 'egg-mutl-grpc',
+  package: 'egg-multi-grpc',
 };
 ```
 
