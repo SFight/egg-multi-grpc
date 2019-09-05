@@ -45,6 +45,24 @@ exports.multiGrpc = {
 ```js
 // {app_root}/config/config.default.js
 exports.multiGrpc = {
+  grpc: {
+    dir: 'app/proto/grpc',
+    property: 'grpc',
+    loadOpts: {
+      convertFieldsToCamelCase: true,
+    },
+    endpoint: 'localhost:50051',
+    timeout: 5000,
+  },
+  grpch: {
+    dir: 'app/proto/grpch',
+    property: 'grpch',
+    loadOpts: {
+      convertFieldsToCamelCase: true,
+    },
+    endpoint: '192.168.1.117:50051',
+    timeout: 5000,
+  },
 };
 ```
 
