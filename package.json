@@ -1,6 +1,6 @@
 {
   "name": "egg-multi-grpc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "支持连接多个grpc设置",
   "eggPlugin": {
     "name": "multiGrpc"
